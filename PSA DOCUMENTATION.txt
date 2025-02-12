@@ -1,0 +1,253 @@
+name{ emmanuel esse victor}
+luc-nga-002-adm-100025
+
+Plumbing Organization Website Documentation
+
+1. Introduction
+
+The plumbing organization is currently using manual processes to manage customer information and service requests, which leads to inefficiencies, delays, and limited accessibility. The goal of this project is to develop a fully functional website that will digitize and streamline operations, providing an online presence and allowing customers to make service requests remotely.
+
+
+---
+
+2. Project Scope
+
+2.1 In-Scope Features
+
+User-friendly website interface with easy navigation.
+
+Customer registration and login functionality.
+
+Online service request and booking system.
+
+Customer database for record-keeping.
+
+Admin panel for managing customer requests and information.
+
+Notification and alert system for customers and admins.
+
+Contact page with inquiry form and social media integration.
+
+
+2.2 Out-of-Scope Features
+
+Mobile application (only a web platform is covered in this phase).
+
+AI-based automation or chatbot services.
+
+Advanced analytics and reporting features beyond basic metrics.
+
+
+
+---
+
+3. System Requirements
+
+3.1 Functional Requirements
+
+1. User Authentication
+
+Customers can register and log in to their accounts.
+
+Admins can manage user roles and access permissions.
+
+
+
+2. Service Request Management
+
+Customers can submit a service request via an online form.
+
+Requests are stored in a database for easy tracking.
+
+Admins can update the status of service requests (e.g., Pending, In Progress, Completed).
+
+
+
+3. Customer Information Management
+
+Admins can view, update, and delete customer records.
+
+Customers can update their profiles and view their request history.
+
+
+
+4. Notification System
+
+Email or SMS notifications to confirm service requests.
+
+Alerts for service updates and status changes.
+
+
+
+5. Admin Dashboard
+
+Overview of total customers, pending requests, and completed jobs.
+
+Ability to manage service requests efficiently.
+
+
+
+
+3.2 Non-Functional Requirements
+
+The website should be responsive and work on different screen sizes.
+
+It should ensure security through encryption and secure login mechanisms.
+
+It should provide a smooth and fast user experience.
+
+
+
+---
+
+4. Technology Stack
+
+4.1 Frontend (User Interface)
+
+React Native: A JavaScript framework for building interactive UI.
+
+HTML5, CSS3, JavaScript: Used for web design and responsiveness.
+
+
+4.2 Backend (Server-Side Processing)
+
+Laravel: PHP framework used for handling backend logic, authentication, and data management.
+
+
+4.3 Database
+
+MySQL or PostgreSQL: Stores customer details, service requests, and admin data.
+
+
+4.4 Additional Tools
+
+Firebase or Twilio: For push notifications and SMS alerts.
+
+Stripe or PayPal (Future Integration): For online payments if needed.
+
+
+
+---
+
+5. System Architecture
+
+5.1 High-Level Architecture Diagram
+
+1. Client-Side (Frontend)
+
+Users interact with the website via React Native UI.
+
+
+
+2. Server-Side (Backend)
+
+Laravel handles user requests, processes business logic, and communicates with the database.
+
+
+
+3. Database Layer
+
+MySQL/PostgreSQL stores structured data for customer and service management.
+
+
+
+4. Third-Party Services
+
+External APIs for email notifications, SMS alerts, and potential payment gateways.
+
+
+
+
+
+---
+
+6. Development Methodology
+
+The project follows the Agile methodology, allowing iterative development and continuous improvements based on feedback.
+
+6.1 Development Phases
+
+Phase 1: Planning
+
+Gather business requirements.
+
+Design website wireframes and workflows.
+
+Choose the technology stack.
+
+
+Phase 2: Development
+
+Develop the front-end UI using React Native.
+
+Set up backend functionalities with Laravel.
+
+Implement the database structure.
+
+
+Phase 3: Testing
+
+Unit testing for individual features.
+
+User acceptance testing (UAT) to ensure usability.
+
+Performance testing for scalability.
+
+
+Phase 4: Deployment
+
+Host the website on a cloud server.
+
+Ensure SSL security and secure login mechanisms.
+
+Monitor for bugs and maintenance updates.
+
+
+
+---
+
+7. Security Considerations
+
+User Authentication: Secure login using hashed passwords (Laravel authentication).
+
+Data Encryption: Use HTTPS and SSL for data transfer security.
+
+Role-Based Access Control (RBAC): Admins and customers have different permissions.
+
+Regular Backups: Protect against data loss with scheduled backups.
+
+
+
+---
+
+8. Expected Outcomes
+
+A fully operational website for managing plumbing service requests.
+
+Reduced manual paperwork and improved service efficiency.
+
+Enhanced customer satisfaction through digital access to services.
+
+Increased visibility and online presence for the plumbing organization.
+
+
+
+---
+
+9. Future Enhancements
+
+Mobile App Development: Extend functionality to Android and iOS platforms.
+
+AI Chatbot: For automated customer inquiries.
+
+Online Payment Integration: Allow customers to pay for services online.
+
+Analytics Dashboard: Provide insights on customer trends and service demand.
+
+
+
+---
+
+10. Conclusion
+
+This website aims to enhance operational efficiency by digitalizing customer management and service requests. The implementation of Laravel and React Native ensures scalability, security, and a seamless user experience. This project will transform the plumbing organization’s operations, improving customer interactions and business performance.
